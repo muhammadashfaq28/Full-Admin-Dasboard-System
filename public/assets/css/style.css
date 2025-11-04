@@ -1,0 +1,102 @@
+:root{
+    --main-color: #F4B3B3;
+    --btn-color: #F25019;
+}
+
+.logo{
+    color: var(--btn-color);
+}
+
+.main-div {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      background-image: url(../images/bg\ img.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .login-container {
+      background: linear-gradient(to right, #FEDCC5, #FEDDC6 );
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 850px;
+      padding: 40px 60px;
+    }
+
+    .login-box {
+      width: 50%;
+      background: linear-gradient(to right, #FEDCC5, #FEDDC6 );
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-danger{
+        background-color: var(--btn-color);
+
+    }
+
+    .login-box h3 {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .form-control {
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+    }
+
+    .btn-login {
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+
+    
+
+    .social-icons button {
+      border: none;
+      background: white;
+      border-radius: 20px;
+      width: 70px;
+      height: 35px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 0 5px;
+    }
+
+    .illustration {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .illustration img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .link {
+      color: #AE4700;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
